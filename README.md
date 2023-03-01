@@ -7,7 +7,7 @@ Whats is missed in the implementation:
 
  [ ] error handling
 
- [ ] tests
+ [X] tests
 
 
 ## 🚀 Quick start
@@ -40,7 +40,9 @@ npm: 8.19.2
 
     Edit `src/pages/index.tsx` to see your site update in real-time!
 
-4.  **Learn more**
+4. A few tests available by running `npm run test`
+
+  **Learn more**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
     - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
