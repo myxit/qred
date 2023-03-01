@@ -2,7 +2,7 @@ import * as React from "react"
 import { v4 as uuidv4 } from 'uuid';
 
 
-export default function TextInput({label, ...restProps}: any) {  
+export default function TextInput({label, errorMessage, ...restProps}: any) {  
   const componentUUID = uuidv4()
   const id = restProps.id || ['text', restProps.name.toLowerCase(), componentUUID].join('-')
   const placeholder = restProps.placeholder || label.toLowerCase()
@@ -19,6 +19,7 @@ export default function TextInput({label, ...restProps}: any) {
         type="text" 
         placeholder={placeholder}
          />
+      {errorMessage && <label className="text-red-500">{errorMessage}</label>}
     </div>
   )
 }

@@ -3,7 +3,7 @@
 
 Whats is missed in the implementation:
 
- [ ] form fields validation
+ [X] form fields validation
 
  [ ] error handling
 
