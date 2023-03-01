@@ -1,29 +1,36 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# Overview
+
+
+Whats is missed in the implementation:
+
+ [ ] form fields validation
+
+ [ ] error handling
+
+ [ ] tests
+
 
 ## 🚀 Quick start
+This project based on gatsby template with setup of redux and tailwind.
 
-1.  **Create a Gatsby site.**
+**Requirements**
+node: v18.12.1
+npm: 8.19.2
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+
+1.  **Install deps.**
+
+    Navigate the project directory and install packages
 
     ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
+    npm install     
     ```
 
 2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    and start it up.
 
-    ```shell
-    cd my-gatsby-site/
+    ```shell/
     npm run develop
     ```
 
